@@ -11,7 +11,7 @@ body{
 }
 header ul {
     list-style: none;
-    background-color: rgb(222, 165, 164);
+    background-color: white;
     padding: 0px;
     text-align:center;
 }
@@ -49,6 +49,7 @@ header a:hover {
 .historia {
     text-align: center;
     padding-bottom: 20px;
+    background-color: rgb(222, 165, 164);
 }
 
 main h2 {
