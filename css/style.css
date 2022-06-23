@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@400;500&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'oswald', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+header ul {
+    list-style: none;
+    background-color: rgb(222, 165, 164);
+    padding: 0px;
+    text-align:center;
+}
+header li {
+    display: inline-block;
+}
+
+header a:link, header a:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: rgb(0, 0, 20);
+    transition: all 0.5s;
+    font-family: 'Akshar', sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+header a:hover {
+   background-color: rgb(241, 238, 220);
+   color: rgb(0, 0, 0);
+}
+
+
+/*main*/
+
+.imagemHorizontal {
+    width: 100%;
+    display: block;
+}
+
+.textoTitulo{
+    color: rgb(79, 139, 127)
+}
+.historia {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+main h2 {
+    color: rgb(17, 17, 17);
+    font-family: 'Akshar', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+}
+
+.historia img {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.historia > div > div {
+    padding: 30px;
+}
+
+.historia p {
+    text-align: justify;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    padding: 10px;
+}
+
+.galeria{
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+/*MUDAR PARA DESKTOP*/
+
+.testeCarrossel {
+    align-content: center;
+    padding: 80px;
+    width: 350px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.testeCarrossel .fotos {
+    width: 500%;
+    animation-name: animação;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.testeCarrossel .fotos img {
+    width: 20%;
+}
+
+/*footer*/
+
+footer {
+    background-color: rgb(166, 13, 13);
+    padding: 30px;
+    margin: auto;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0px;
+}
+
+footer li {
+    display: grid; 
+}
+
+footer a:link, footer a:visited {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: rgb(241, 238, 220);
+    transition: all 0.5s;
+    font-weight: bolder;
+    margin: auto;
+}
+
+footer a:hover {
+    background-color: rgb(241, 238, 220);
+    color: rgb(166, 13, 13);
+    width: 200px;
+    text-align: center;
+ }
+
+footer h3{
+    color: rgb(241, 238, 220);
+    font-family: 'Akshar', sans-serif;
+    font-size: 17px;
+    text-align: center;
+ }
+
+ 
